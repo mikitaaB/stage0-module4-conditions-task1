@@ -4,9 +4,9 @@ public class ConditionalTruePrinter {
     public static void main(String[] args) {
         boolean cond = true;
         if (cond) {
-            System.out.println(a);
+            System.out.println(cond);
         } else {
-            System.out.println(a);
+            System.out.println(cond);
         }
     }
 }
