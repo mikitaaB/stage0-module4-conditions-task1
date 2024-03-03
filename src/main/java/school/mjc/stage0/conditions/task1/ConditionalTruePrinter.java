@@ -2,11 +2,10 @@ package school.mjc.stage0.conditions.task1;
 
 public class ConditionalTruePrinter {
     public static void main(String[] args) {
-        boolean cond = true;
-        if (cond) {
-            System.out.println(cond);
+        if (true) {
+            System.out.println(true);
         } else {
-            System.out.println(cond);
+            System.out.println(false);
         }
     }
 }
